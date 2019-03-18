@@ -66,3 +66,15 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### Development Notes
+
+#### Converting to react
+
+Converting to react were done in following steps
+
+1. Create an app using create-reacte app
+2. Add react-router-dom and create two sample routes
+3. Update the public/index.html to include bootstrap and other css and js files (excluding jquery)
+4. Copy and paste the html in a routed react component
+    - convert class attributes to classNames, and make sure all the closeing tags are there (for tags like <input/>)

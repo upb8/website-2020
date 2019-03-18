@@ -1,0 +1,9 @@
+.image-bg-62{
+
+    background: url(/custom/images/banner.jpeg);
+
+}
+
+.overlay-black:after {
+    opacity: 0.7;
+}
