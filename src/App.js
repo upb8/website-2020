@@ -1,26 +1,18 @@
 import React, {Fragment} from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Home from './pages/Home';
-import Test from './pages/Test';
 
-function Index() {
-  return <h2>Home</h2>;
-}
-
-function About() {
-  return <h2>About</h2>;
-}
-
-function Users() {
-  return <h2>Users</h2>;
-}
+import withMainLayout from './layout/withMainLayout';
 
 function AppRouter() {
   return (
     <Router>
       <Fragment>
-        <Route path="/" exact component={Home} />
-        <Route path="/test" component={Test} />
+        <Route path="/" exact component={withMainLayout(Home)} />
+        <Route path="/the-crew" exact component={withMainLayout(Home)} />
+        <Route path="/services" exact component={withMainLayout(Home)} />
+        <Route path="/about" exact component={withMainLayout(Home)} />
+        <Route path="/projects" exact component={withMainLayout(Home)} />
       </Fragment>
     </Router>
   );
