@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from "react";
+import './index.scss';
 
 class BackToTop extends Component {
   render() {
@@ -9,7 +10,7 @@ class BackToTop extends Component {
             <div className="col-md-4 col-sm-6 col-xs-12 md-margin-bottom-50px sm-text-center">
               <a
                 href="#"
-                className="margin-bottom-25px display-inline-block"
+                className="margin-bottom-25px display-inline-block footer-logo-img"
                 data-uk-scroll
               >
                 <img src="images/logo-white.png" alt="" />

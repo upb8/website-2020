@@ -75,6 +75,8 @@ Converting to react were done in following steps
 
 1. Create an app using create-reacte app
 2. Add react-router-dom and create two sample routes
-3. Update the public/index.html to include bootstrap and other css and js files (excluding jquery)
+3. Update the public/index.html to include bootstrap.css and other css and js files (excluding jquery)
 4. Copy and paste the html in a routed react component
-    - convert class attributes to classNames, and make sure all the closeing tags are there (for tags like <input/>)
+    - convert class attributes to classNames
+    - make sure all the tags are closed ( add self closing for tags like <input/>)
+    - make sure the style inputs are JSON only
