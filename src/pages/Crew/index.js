@@ -1,9 +1,13 @@
 import React, { Component, Fragment } from "react";
+import {Helmet} from "react-helmet";
 
 class App extends Component {
   render() {
     return (
       <Fragment>
+        <Helmet>
+            <title>Upbit ––– the Crew</title>
+        </Helmet>
         <section
           className="image-bg-62"
           data-uk-height-viewport="min-height: 300"

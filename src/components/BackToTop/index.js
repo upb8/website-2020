@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from "react";
+import './index.scss';
 
 class BackToTop extends Component {
   render() {

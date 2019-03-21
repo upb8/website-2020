@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react';
-import BackToTop from '../components/backtotop';
+import BackToTop from '../components/BackToTop';
 import Header from '../components/header';
 import Footer from '../components/footer';
 
