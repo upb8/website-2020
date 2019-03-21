@@ -9,7 +9,7 @@ function AppRouter() {
     <Router>
       <Fragment>
         <Route path="/" exact component={withMainLayout(Home)} />
-        <Route path="/the-crew" exact component={withMainLayout(Home)} title="the crew"/>
+        <Route path="/the-crew" exact component={withMainLayout(Home)}/>
         <Route path="/services" exact component={withMainLayout(Home)} />
         <Route path="/about" exact component={withMainLayout(Home)} />
         <Route path="/projects" exact component={withMainLayout(Home)} />
