@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from "react";
+import { Link } from 'react-router-dom';
 
 class Header extends Component {
   render() {
@@ -34,12 +35,12 @@ class Header extends Component {
                   </li>
 
                   <li>
-                    <a
+                    <Link
                       className="text-gray-extra-light text-extra-small uk-visible@l"
-                      href="services.html"
+                      to="/services"
                     >
                       Services
-                    </a>
+                    </Link>
                   </li>
 
                   <li>
