@@ -1,5 +1,7 @@
 import React, { Component, Fragment } from "react";
 import { Helmet } from "react-helmet";
+import { Link } from 'react-router-dom';
+import './index.scss';
 
 class App extends Component {
   render() {
@@ -17,7 +19,11 @@ class App extends Component {
                 <div className="separator center-col width-100px bottom-border border-1px border-color-gray-light margin-top-bottom-20px"></div>
                 <h5 className="roboto text-extra-large text-weight-300 text-white">
                   That's what we pretty much do. <br/>
-                  Here is how we handle our product development process, in a brief.
+                  Here is how we handle our product development process, <br/>
+                  in a brief.
+                </h5>
+                <h5 className="cover-scroll-arrow">
+                  &darr;
                 </h5>
               </div>
             </div>
@@ -122,7 +128,7 @@ class App extends Component {
                           </h6>
 
                           <p className="montserrat text-gray-extra-dark text-medium text-left sm-text-center text-weight-500">
-                            Planning
+                            Brainstorm
                           </p>
 
                           <p className="text-left sm-text-center text-weight-400 no-margin-bottom">
@@ -139,7 +145,7 @@ class App extends Component {
                           </h6>
 
                           <p className="montserrat text-gray-extra-dark text-medium text-center sm-text-center text-weight-500">
-                            Brainstorm
+                            Planning
                           </p>
 
                           <p className="text-center sm-text-center text-weight-400 no-margin-bottom">
@@ -230,7 +236,7 @@ class App extends Component {
                   <div className="separator width-30px bottom-border border-2px border-color-gray-light margin-top-bottom-20px margin-left-right-auto"></div>
                   <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using.</p>
                   <p>You need to be sure there isn't anything embarrassing hidden in the middle of text. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                  <a className="btn btn-medium btn-black border-radius-50 sm-margin-left-right-auto sm-display-table xs-no-margin-bottom" href="#">Learn More</a>
+                  <Link className="btn btn-medium btn-black border-radius-50 sm-margin-left-right-auto sm-display-table xs-no-margin-bottom" to="/projects">Some of our Projects</Link>
                 </div>
               </div>
 

@@ -80,3 +80,4 @@ Converting to react were done in following steps
     - convert class attributes to classNames
     - make sure all the tags are closed ( add self closing for tags like <input/>)
     - make sure the style inputs are JSON only
+    - remove empty / string style attributes

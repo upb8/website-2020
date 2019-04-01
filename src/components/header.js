@@ -44,21 +44,21 @@ class Header extends Component {
                   </li>
 
                   <li>
-                    <a
+                    <Link
                       className="text-gray-extra-light text-extra-small uk-visible@l"
-                      href="crew.html"
+                      to="/the-crew"
                     >
                       The Crew
-                    </a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a
+                    <Link
                       className="text-gray-extra-light text-extra-small uk-visible@l"
-                      href="about.html"
+                      to="/about"
                     >
                       About
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
