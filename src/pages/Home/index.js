@@ -65,7 +65,7 @@ class App extends Component {
 
             <div className="row">
               <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 center-col text-left margin-auto order-lg-2">
-                <img src="custom/images/gif/printer.webp" alt="" />
+                <img src="custom/images/gif/coffee.gif" alt="" />
               </div>
 
               <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 center-col text-left margin-auto order-lg-1">
@@ -87,7 +87,7 @@ class App extends Component {
 
             <div className="row">
               <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 center-col text-left margin-auto">
-                <img src="custom/images/gif/cleanup.gif" alt="" />
+                <img src="custom/images/gif/brain.gif" alt="" />
               </div>
 
               <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 center-col text-left margin-auto">
