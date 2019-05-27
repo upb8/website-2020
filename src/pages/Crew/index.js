@@ -283,7 +283,7 @@ class App extends Component {
               >
                 <div className="col-md-8 col-sm-12 col-xs-12 center-col text-left margin-auto uk-scrollspy-inview uk-animation-scale-up">
                   <h4 className="text-white">Nazmus Sakib</h4>
-                  <p className="text-white no-margin-top">Client Services & Product Strategy <a href="mailto:aareef@up-bt.com"><span className="text-gray-light">(aareef@up-bt.com)</span></a></p>
+                  <p className="text-white no-margin-top">Client Services & Product Strategy <a href="mailto:sakib@up-bt.com"><span className="text-gray-light">(sakib@up-bt.com)</span></a></p>
 
                   <p className="text-gray-light">
                     Don’t fall for his innocent looks, the guy is not what he looks like. Often seen in the great alps meditating.
@@ -312,7 +312,7 @@ class App extends Component {
 
                 <div className="col-md-8 col-sm-12 col-xs-12 center-col text-left margin-auto uk-scrollspy-inview uk-animation-scale-up">
                   <h4 className="text-white no-margin-bottom">Kazi Ridwan</h4>
-                  <p className="text-white no-margin-top">Team Curation & Product Strategy <a href="mailto:salman@up-bt.com"><span className="text-gray-light">(salman@up-bt.com)</span></a></p>
+                  <p className="text-white no-margin-top">Team Curation & Product Strategy <a href="mailto:kazi@up-bt.com"><span className="text-gray-light">(kazi@up-bt.com)</span></a></p>
 
                   <p className="text-gray-light">
                     He is just a normal guy, no one knows what he actually does in the team. Some says he flies all night saving the world. But rumor has it that he is always busy saving himself from the vape clouds.
