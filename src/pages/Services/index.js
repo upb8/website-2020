@@ -35,7 +35,7 @@ class App extends Component {
             <div className="container">
               <div className="row margin-bottom-50px">
                 <div className="col-md-6 col-sm-12 col-xs-12">
-                  <img src="images/works/style-01/03.jpg" alt="" />
+                  <img src="custom/images/services/1.png" alt="" />
                 </div>
                 <div className="col-md-6 col-sm-12 col-xs-12 uk-flex uk-flex-middle">
                 
@@ -44,7 +44,7 @@ class App extends Component {
                     <p className="text-weight-400 text-gray-extra-dark no-margin-bottom">Mobile App Development</p>
                     <h5 className="text-weight-600 text-gray-extra-dark margin-bottom-15px sm-margin-top-15px">Android &amp; iOS</h5>
                     
-                    <p className="text-weight-400 text-gray-extra-dark text-extra-large margin-bottom-15px">To achieve the best user experience, Upbit has a fully dedicated team to develop cross-platform apps, with React Native. Without compromising quality or consistency, Upbit can test and adopt new technologies even before they are available to the general public.</p>
+                    <p className="text-weight-400 text-gray-extra-dark text-extra-large margin-bottom-15px">We have a young and enthusiastic team equipped with the mastery of React Native, ready to develop cross-platform apps. Using adaptability to fuel our fire of innovation, we are prepared to handle technologies which are not even widespread. And compromising with quality and consistency is never an option for us.</p>
                     
                   </div>
                   
@@ -57,19 +57,19 @@ class App extends Component {
                     <p className="text-weight-400 text-gray-extra-dark no-margin-bottom">Web Application</p>
                     <h5 className="text-weight-600 text-gray-extra-dark margin-bottom-15px sm-margin-top-15px">Frontend Design &amp; Development</h5>
                     
-                    <p className="text-weight-400 text-gray-extra-dark text-extra-large margin-bottom-15px">To achieve the best user experience, Upbit has a fully dedicated team to develop cross-platform apps, with React Native. Without compromising quality or consistency, Upbit can test and adopt new technologies even before they are available to the general public.</p>
+                    <p className="text-weight-400 text-gray-extra-dark text-extra-large margin-bottom-15px">Whether it’s a splash of colors, aesthetic minimalistic design or a data-driven UI, our dedicated Frontend team got you covered. Technologies like react, and preprocessed styling languages give us the power to develop sophisticated web apps according to your needs. We break the shackles of limits and compel your imagination to be unchained.</p>
                     
                   </div>
                   
                 </div>
                 <div className="col-md-6 col-sm-12 col-xs-12">
-                  <img src="images/works/style-01/03.jpg" alt="" />
+                  <img src="custom/images/services/2.png" alt="" />
                 </div>
               </div>
 
               <div className="row">
                 <div className="col-md-6 col-sm-12 col-xs-12">
-                  <img src="images/works/style-01/03.jpg" alt="" />
+                  <img src="custom/images/services/3.png" alt="" />
                 </div>
                 <div className="col-md-6 col-sm-12 col-xs-12 uk-flex uk-flex-middle">
                 
@@ -78,7 +78,7 @@ class App extends Component {
                     <p className="text-weight-400 text-gray-extra-dark no-margin-bottom">Backend Development</p>
                     <h5 className="text-weight-600 text-gray-extra-dark margin-bottom-15px sm-margin-top-15px">Scalable Backend Services</h5>
                     
-                    <p className="text-weight-400 text-gray-extra-dark text-extra-large margin-bottom-15px">To achieve the best user experience, Upbit has a fully dedicated team to develop cross-platform apps, with React Native. Without compromising quality or consistency, Upbit can test and adopt new technologies even before they are available to the general public.</p>
+                    <p className="text-weight-400 text-gray-extra-dark text-extra-large margin-bottom-15px">We work with top of the line backend technologies with modern techniques such as containerization and micro-services. With experiences of stacks comprising Node JS, MongoDB our engineers can work with modular systems. Having a strong foundation in Rest and GraphQL API's we are able to scale a lot more efficiently.</p>
                     
                   </div>
                   
@@ -132,8 +132,7 @@ class App extends Component {
                           </p>
 
                           <p className="text-left sm-text-center text-weight-400 no-margin-bottom">
-                            To apply a vertically centered line to a heading,
-                            add the stuff together.
+                            Make use of our ability to formulate different perception and generate ideas
                           </p>
                         </div>
 
@@ -149,8 +148,7 @@ class App extends Component {
                           </p>
 
                           <p className="text-center sm-text-center text-weight-400 no-margin-bottom">
-                            To apply a vertically centered line to a heading,
-                            add the stuff together.
+                            We devise a plan using those ideas and break down tasks accordingly
                           </p>
                         </div>
 
@@ -166,8 +164,7 @@ class App extends Component {
                           </p>
 
                           <p className="text-center sm-text-center text-weight-400 no-margin-bottom">
-                            To apply a vertically centered line to a heading,
-                            add the stuff together.
+                            Define specific goals for tasks and coming up with technologies to implement
                           </p>
                         </div>
                         
@@ -186,8 +183,7 @@ class App extends Component {
                           </p>
 
                           <p className="text-center sm-text-center text-weight-400 no-margin-bottom">
-                            To apply a vertically centered line to a heading,
-                            add the stuff together.
+                            We put ideas into action and getting an intermediary representation of the end product
                           </p>
                         </div>
 
@@ -203,8 +199,7 @@ class App extends Component {
                           </p>
 
                           <p className="text-center sm-text-center text-weight-400 no-margin-bottom">
-                            To apply a vertically centered line to a heading,
-                            add the stuff together.
+                            Revise the finalize product and make amendments
                           </p>
                         </div>
 
@@ -220,8 +215,7 @@ class App extends Component {
                           </p>
 
                           <p className="text-right sm-text-center text-weight-400 no-margin-bottom">
-                            To apply a vertically centered line to a heading,
-                            add the stuff together.
+                            End of the journey of creation; finally we deliver you what you so longed
                           </p>
                         </div>
                       </div>
@@ -232,10 +226,10 @@ class App extends Component {
 
               <div className="row margin-top-100px">
                 <div className="col-md-12 col-sm-12 col-xs-12 center-col text-left margin-auto text-center">
-                  <h4 className="text-weight-800 text-black letter-spacing-5 sm-letter-spacing-5 text-center">A Creative Solution.</h4>			
+                  <h4 className="text-weight-800 text-black letter-spacing-5 sm-letter-spacing-5 text-center">Product Development Finesse.</h4>			
                   <div className="separator width-30px bottom-border border-2px border-color-gray-light margin-top-bottom-20px margin-left-right-auto"></div>
-                  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using.</p>
-                  <p>You need to be sure there isn't anything embarrassing hidden in the middle of text. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                  <p>We aim to deliver the absolute best to our capacity; and we thrive to better ourselves everyday.</p>
+                  <p>The projects that we've worked on speak for itself.</p>
                   <Link className="btn btn-medium btn-black border-radius-50 sm-margin-left-right-auto sm-display-table xs-no-margin-bottom" to="/projects">Some of our Projects</Link>
                 </div>
               </div>

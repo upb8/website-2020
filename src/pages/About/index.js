@@ -1,29 +1,30 @@
 import React, { Component, Fragment } from "react";
 import { Helmet } from "react-helmet";
+import './index.scss';
 
 class App extends Component {
   render() {
     return (
       <Fragment>
         <Helmet>
-          <title>Upbit ––– Out Story</title>
+          <title>Upbit ––– Our Story</title>
         </Helmet>
         <section
           data-uk-scrollspy="cls:uk-animation-fade"
-          className="image-bg-45 overlay-black-dense padding-top-bottom-twelve-percent sm-padding-top-bottom-150px uk-scrollspy-inview uk-animation-fade"
+          className="image-bg-about overlay-black-dense padding-top-bottom-twelve-percent sm-padding-top-bottom-150px uk-scrollspy-inview uk-animation-fade"
         >
           <div className="container">
             <div className="row">
               <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 display-table">
                 <div className="vertical-align-middle display-table-cell text-center xs-text-center">
                   <h1 className="no-margin text-white text-weight-600">
-                    About.
+                    Hear Our Story.
                   </h1>
 
                   <div className="separator center-col width-30 bottom-border border-4px border-color-gray-dark margin-top-bottom-20px" />
 
                   <h1 className="text-white text-large text-weight-300 margin-bottom-5px sm-no-margin-bottom">
-                    Read our story
+                    Learn more about our journey
                   </h1>
                 </div>
               </div>
@@ -41,17 +42,12 @@ class App extends Component {
                   <div className="position-relative overflow-hidden width-100 sm-margin-bottom-25px">
                     <p className="no-margin-bottom text-black text-weight-400">
                       <span className="dropcap text-black title-medium text-weight-700">
-                        A
+                        I
                       </span>{" "}
-                      of the printing and typesetting industry Lorem Ipsum is
-                      simply dummy text of the printing and typesetting
-                      industry. It has survived not only five centuries. Lorem
-                      Ipsum is simply dummy text of the printing and typesetting
-                      industry. It has survived not only five centuries. Simply
-                      dummy text of the printing and typesetting industry. It
-                      has survived not only five centuries. Lorem Ipsum is
-                      simply dummy text of the printing and typesetting
-                      industry.
+                      n the summer of 2014, Upbit started as a friendly project, by Nazmus and Kazi, two aspiring Computer Science freshman. From learning projects, to fun experiments, they started building web applications for businesses local and abroad.
+                    </p>
+                    <p className="no-margin-bottom text-black text-weight-400">
+                      From a team of two, Upbit grew to be a digital agency where likeminded engineers, creatives work together and sculpt digital products in all popular platforms across all the devices.
                     </p>
                   </div>
                 </div>
@@ -59,8 +55,9 @@ class App extends Component {
                 <div className="col-md-6 col-sm-12 col-xs-12 center-col text-left margin-auto uk-scrollspy-inview uk-animation-slide-bottom-medium">
                   <div className="position-relative overflow-hidden width-100">
                     <h5 className="no-margin-bottom text-black text-weight-700">
-                      It has survived not only five centuries. Lorem Ipsum is
-                      simple.
+                      A tribe of artisans, <br/>
+                      working in the <br/>
+                      tech space
                     </h5>
                   </div>
                 </div>
@@ -68,7 +65,7 @@ class App extends Component {
 
               <div className="row margin-top-50px">
                 <div className="col-md-12 col-sm-12 col-xs-12 center-col text-center margin-bottom-50px uk-scrollspy-inview uk-animation-slide-bottom-medium">
-                  <img src="images/backgrounds/bg-img-55.jpg" alt="" />
+                  <img src="custom/images/crew/banner.jpeg" alt="" />
                 </div>
               </div>
             </div>
@@ -102,8 +99,8 @@ class App extends Component {
                   <div class="contact-wrapper">
                     <form
                       class="contact-form"
-                      method="post"
-                      action="contact.php"
+                      method="POST"
+                      action="https://formspree.io/hi@up-bt.com"
                     >
                       <div class="messages" />
 

@@ -1,9 +1,14 @@
 import React, { Component, Fragment } from "react";
-
+import { Link } from 'react-router-dom';
+import Helmet from "react-helmet";
+import './index.scss';
 class App extends Component {
   render() {
     return (
       <Fragment>
+        <Helmet>
+          <title>Upbit ––– Welcome to the Tribe</title>
+        </Helmet>
         <section
           className="image-bg-62"
           data-uk-height-viewport="min-height: 300"
@@ -14,19 +19,18 @@ class App extends Component {
                 <h3 className="text-weight-700 text-white">We've got this.</h3>
 
                 <h5 className="roboto text-extra-large text-weight-300 text-white">
-                  We are a tribe of artisans, working in tech space. Come hope
-                  in.
+                  We are a tribe of artisans, working in tech space. <br/>
+                  Come hope in.
                 </h5>
 
                 <div className="separator center-col width-100 bottom-border border-1px border-color-gray-dark margin-top-bottom-40px" />
 
-                <a
+                <Link
                   className="btn btn-small btn-white sm-margin-left-right-auto sm-display-table xs-no-margin-bottom"
-                  href="#link1"
-                  data-uk-scroll
+                  to="/about"
                 >
                   About
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -48,9 +52,8 @@ class App extends Component {
                     How 'bout a shot of innovation
                   </h3>
 
-                  <p>
-                      We are a group comprised of technology experts and technical managers thriving on state of the art software innovation.
-                      Our engineers and creatives are in the business of making digital products that thrive on new technology.
+                  <p className="block-description">
+                    We are a breed of specialized chiefs blossoming with innovation in the field of tech. Making advanced items that flourish with time is our forte. Our architects and creatives are a class apart to match the trend and infuse your ideas with diverse colors to take you a step ahead. 
                   </p>
                 </div>
               </div>
@@ -71,44 +74,9 @@ class App extends Component {
                     Gee! Your idea smells terrific
                   </h3>
 
-                  <ul className="no-margin no-padding no-list-style">
-                    <li className="padding-bottom-25px text-gray-regular">
-                      <span
-                        data-uk-icon="icon: check"
-                        className="margin-right-10px text-white"
-                      />{" "}
-                      This tool is an ongoing experiment in better HTML
-                      checking.
-                    </li>
-                    <li className="padding-bottom-25px text-gray-regular">
-                      <span
-                        data-uk-icon="icon: check"
-                        className="margin-right-10px text-white"
-                      />{" "}
-                      You have managed to facilitate a purchase of the house.
-                    </li>
-                    <li className="padding-bottom-25px text-gray-regular">
-                      <span
-                        data-uk-icon="icon: check"
-                        className="margin-right-10px text-white"
-                      />{" "}
-                      Available services such as buying or selling, she's got.
-                    </li>
-                    <li className="padding-bottom-25px text-gray-regular">
-                      <span
-                        data-uk-icon="icon: check"
-                        className="margin-right-10px text-white"
-                      />{" "}
-                      A lightweight and modular front-end framework.
-                    </li>
-                    <li className="text-gray-regular">
-                      <span
-                        data-uk-icon="icon: check"
-                        className="margin-right-10px text-white"
-                      />{" "}
-                      Aenean eu leo quam. Pellentesque ornare quis eget urna.
-                    </li>
-                  </ul>
+                  <p className="block-description">
+                    Here at UpBit your idea matters the most. We will be helping you at every step to take your objective at a higher standard. The juiciest propositions are a challenge and our agency deals with it following specific worlflow. Our aim is to bring out a colossal venture from your beautiful scratch.
+                  </p>
                 </div>
               </div>
 
@@ -128,44 +96,9 @@ class App extends Component {
                     Brainwaves orchestrated
                   </h3>
 
-                  <ul className="no-margin no-padding no-list-style">
-                    <li className="padding-bottom-25px text-gray-regular">
-                      <span
-                        data-uk-icon="icon: check"
-                        className="margin-right-10px text-white"
-                      />{" "}
-                      This tool is an ongoing experiment in better HTML
-                      checking.
-                    </li>
-                    <li className="padding-bottom-25px text-gray-regular">
-                      <span
-                        data-uk-icon="icon: check"
-                        className="margin-right-10px text-white"
-                      />{" "}
-                      You have managed to facilitate a purchase of the house.
-                    </li>
-                    <li className="padding-bottom-25px text-gray-regular">
-                      <span
-                        data-uk-icon="icon: check"
-                        className="margin-right-10px text-white"
-                      />{" "}
-                      Available services such as buying or selling, she's got.
-                    </li>
-                    <li className="padding-bottom-25px text-gray-regular">
-                      <span
-                        data-uk-icon="icon: check"
-                        className="margin-right-10px text-white"
-                      />{" "}
-                      A lightweight and modular front-end framework.
-                    </li>
-                    <li className="text-gray-regular">
-                      <span
-                        data-uk-icon="icon: check"
-                        className="margin-right-10px text-white"
-                      />{" "}
-                      Aenean eu leo quam. Pellentesque ornare quis eget urna.
-                    </li>
-                  </ul>
+                  <p className="block-description">
+                    The team is a mix of disparate brains and this is what makes us stand out. Because of this different approach to every task, our vision works at a higher range.  The easiest path is known only after taking all of them. Our team finds the quickest and easiest solution because of the harmonic blend.  
+                  </p>
                 </div>
               </div>
             </div>
@@ -181,12 +114,12 @@ class App extends Component {
               <div className="col-md-12 col-sm-12 col-xs-12 center-col text-center margin-auto uk-scrollspy-inview uk-animation-slide-right-medium">
                 <h6 className="montserrat text-weight-600 text-white no-margin-bottom">
                   Want to know more about our services?{" "}
-                  <a
+                  <Link
                     className="btn btn-medium btn-transparent-white border-radius-50 margin-left-20px md-margin-top-35px sm-margin-left-right-auto sm-display-table"
-                    href="#"
+                    to="/services"
                   >
                     Our services
-                  </a>
+                  </Link>
                 </h6>
               </div>
             </div>
@@ -207,8 +140,8 @@ class App extends Component {
                 <div className="contact-wrapper">
                   <form
                     className="contact-form"
-                    method="post"
-                    action="contact.php"
+                    method="POST"
+                    action="https://formspree.io/hi@up-bt.com"
                   >
                     <div className="messages" />
 
@@ -321,7 +254,7 @@ class App extends Component {
                     </p>
 
                     <p className="no-margin text-white text-weight-300">
-                      contact@XOD.com
+                      hi@up-bt.com
                     </p>
                   </div>
 
@@ -333,7 +266,8 @@ class App extends Component {
                     </p>
 
                     <p className="no-margin text-white text-weight-300">
-                      +1 929 3098 114
+                      +880 1793 500 802 <br/>
+                      +880 1917 613 533
                     </p>
                   </div>
 
@@ -345,7 +279,7 @@ class App extends Component {
                     </p>
 
                     <p className="no-margin text-white text-weight-300">
-                      23-24 Jingo St. Lobster Rd
+                      Suite 8A, House 36, Road 1, Block A, Niketan, Gulshan, Dhaka 1212, Bangladesh
                     </p>
                   </div>
                 </div>

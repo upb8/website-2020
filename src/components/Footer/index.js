@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from "react";
+import {Link} from 'react-router-dom';
 import './index.scss';
 
 class BackToTop extends Component {
@@ -8,20 +9,18 @@ class BackToTop extends Component {
         <footer>
           <div className="row bg-gray-extra-dark padding-left-right-twelve-percent padding-top-bottom-80px">
             <div className="col-md-4 col-sm-6 col-xs-12 md-margin-bottom-50px sm-text-center">
-              <a
-                href="#"
+              <Link
+                to="/about"
                 className="margin-bottom-25px display-inline-block footer-logo-img"
-                data-uk-scroll
               >
                 <img src="images/logo-white.png" alt="" />
-              </a>
+              </Link>
 
               <p className="margin-bottom-25px text-small text-weight-400 width-90 md-width-100 text-gray-light">
-                Cras mattis consectetur purus sit amet fermentum. Donec
-                ullamcorper mattis consectetur nulla non metus.
+                State of the art digital product development agency at your service. Contact us for your projects or just a fun and cheerful conversation.
               </p>
 
-              <a
+              {/* <a
                 className="text-small text-weight-400 text-gray-light right-border border-1 border-color-regular-gray padding-right-10px"
                 href="#"
               >
@@ -32,7 +31,7 @@ class BackToTop extends Component {
                 href="#"
               >
                 Privacy Policy
-              </a>
+              </a> */}
             </div>
 
             <div className="col-md-4 col-sm-6 col-xs-12 left-border border-color-gray-dark padding-left-35px md-margin-bottom-50px sm-text-center xs-no-border-left xs-no-padding-left">
@@ -42,29 +41,29 @@ class BackToTop extends Component {
 
               <ul className="list-unstyled no-margin-bottom">
                 <li>
-                  <a className="text-small text-gray-light" href="#">
+                  <Link className="text-small text-gray-light" to="/">
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-small text-gray-light" href="#">
-                    About
-                  </a>
+                  <Link className="text-small text-gray-light" to="/services">
+                    Services
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-small text-gray-light" href="#">
+                  <Link className="text-small text-gray-light" to="/projects">
                     Projects
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-small text-gray-light" href="#">
-                    Stories
-                  </a>
+                  <Link className="text-small text-gray-light" to="/the-crew">
+                    The Crew
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-small text-gray-light" href="#">
-                    Contact
-                  </a>
+                  <Link className="text-small text-gray-light" to="/about">
+                    About
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -75,21 +74,28 @@ class BackToTop extends Component {
               </h5>
 
               <p className="margin-bottom-25px text-small text-gray-light width-90 md-width-100">
-                5266 Beverly Ln Cape Charles, Virginia(VA), 23310
+                Suite 8A, House 36, Road 1A, Niketan, Gulshan, Dhaka 1212, Bangladesh
               </p>
 
               <ul className="list-unstyled no-margin-bottom">
                 <li className="margin-bottom-15px">
                   <i className="far fa-envelope margin-right-10px" />{" "}
-                  <a className="text-small text-gray-light" href="#">
-                    brand@domain.com
+                  <a className="text-small text-gray-light" href="mailto:hi@up-bt.com">
+                    hi@up-bt.com
                   </a>
                 </li>
 
                 <li>
                   <i className="fas fa-phone margin-right-10px" />{" "}
-                  <a className="text-small text-gray-light" href="#">
-                    +00 (123) 456 78 90
+                  <a className="text-small text-gray-light" href="tel:8801793500802">
+                    +880 (179) 350 08 02
+                  </a>
+                </li>
+
+                <li>
+                  <i className="fas fa-phone margin-right-10px" />{" "}
+                  <a className="text-small text-gray-light" href="tel:8801917613533">
+                    +880 (191) 761 35 33
                   </a>
                 </li>
               </ul>
@@ -142,7 +148,7 @@ class BackToTop extends Component {
                     className="text-medium text-weight-700 text-gray-light"
                     href="#"
                   >
-                    <i className="fab fa-dribbble" />
+                    <i className="fab fa-instagram" />
                   </a>
                 </li>
                 <li className="display-inline-block">

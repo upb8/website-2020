@@ -15,9 +15,12 @@ class Header extends Component {
               data-uk-navbar="boundary-align: true; align: center;"
             >
               <div className="uk-navbar-left padding-left-four-percent">
-                <a className="uk-navbar-item uk-logo" href="#" data-uk-scroll>
-                  <img src="images/logo-white.png" alt="/" />
-                </a>
+                <Link
+                  className="uk-navbar-item uk-logo"
+                  to="/"
+                >
+                  <img src="images/logo-white.png" alt="Upbit" />   
+                </Link>
               </div>
 
               <div className="uk-navbar-right uk-dark padding-right-four-percent">
@@ -76,42 +79,42 @@ class Header extends Component {
               data-uk-nav
             >
               <li>
-                <a className="uk-navbar-item uk-logo" href="#" data-uk-scroll>
+                <Link className="uk-navbar-item uk-logo" to="/" data-uk-scroll>
                   <img src="images/logo-white.png" alt="" />
-                </a>
+                </Link>
               </li>
 
               <li className="margin-bottom-10px">
-                <a
-                  href="services.html"
+                <Link
+                  to="/services"
                   className="bottom-border border-1px border-color-gray-extra-dark"
                 >
                   <span className="text-small text-gray-light text-uppercase text-weight-700">
                     Services
                   </span>
-                </a>
+                </Link>
               </li>
 
               <li className="margin-bottom-10px">
-                <a
-                  href="crew.html"
+                <Link
+                  to="/the-crew"
                   className="bottom-border border-1px border-color-gray-extra-dark"
                 >
                   <span className="text-small text-gray-light text-uppercase text-weight-700">
                     The Crew
                   </span>
-                </a>
+                </Link>
               </li>
 
               <li className="margin-bottom-10px">
-                <a
-                  href="about.html"
+                <Link
+                  to="/about"
                   className="bottom-border border-1px border-color-gray-extra-dark"
                 >
                   <span className="text-small text-gray-light text-uppercase text-weight-700">
                     About
                   </span>
-                </a>
+                </Link>
               </li>
             </ul>
 
