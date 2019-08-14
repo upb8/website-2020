@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from "react";
-import {Link} from 'react-router-dom';
-import './index.scss';
+import { Link } from "react-router-dom";
+import "./index.scss";
 
 class BackToTop extends Component {
   render() {
@@ -17,7 +17,9 @@ class BackToTop extends Component {
               </Link>
 
               <p className="margin-bottom-25px text-small text-weight-400 width-90 md-width-100 text-gray-light">
-                State of the art digital product development agency at your service. Contact us for your projects or just a fun and cheerful conversation.
+                State of the art digital product development agency at your
+                service. Contact us for your projects or just a fun and cheerful
+                conversation.
               </p>
 
               {/* <a
@@ -74,27 +76,37 @@ class BackToTop extends Component {
               </h5>
 
               <p className="margin-bottom-25px text-small text-gray-light width-90 md-width-100">
-                Suite 8A, House 36, Road 1A, Niketan, Gulshan, Dhaka 1212, Bangladesh
+                Suite 9B, House 73, Road 2, Block A, Niketan, Gulshan, Dhaka
+                1212, Bangladesh
               </p>
 
               <ul className="list-unstyled no-margin-bottom">
                 <li className="margin-bottom-15px">
                   <i className="far fa-envelope margin-right-10px" />{" "}
-                  <a className="text-small text-gray-light" href="mailto:hi@up-bt.com">
+                  <a
+                    className="text-small text-gray-light"
+                    href="mailto:hi@up-bt.com"
+                  >
                     hi@up-bt.com
                   </a>
                 </li>
 
                 <li>
                   <i className="fas fa-phone margin-right-10px" />{" "}
-                  <a className="text-small text-gray-light" href="tel:8801793500802">
+                  <a
+                    className="text-small text-gray-light"
+                    href="tel:8801793500802"
+                  >
                     +880 (179) 350 08 02
                   </a>
                 </li>
 
                 <li>
                   <i className="fas fa-phone margin-right-10px" />{" "}
-                  <a className="text-small text-gray-light" href="tel:8801917613533">
+                  <a
+                    className="text-small text-gray-light"
+                    href="tel:8801917613533"
+                  >
                     +880 (191) 761 35 33
                   </a>
                 </li>
